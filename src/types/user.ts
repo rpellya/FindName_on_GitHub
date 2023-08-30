@@ -3,17 +3,17 @@ export type LocalGithubUser = {
   id: number;
   avatar: string;
   name: string;
-  company: string;
+  company: string | null;
   bio: string;
   location: string;
-  twitter: string;
-  repos: string;
+  twitter: string | null;
+  repos: number;
   followers: number;
   following: number;
   created: string;
 };
 
-export type GithUbuser = {
+export type GithubUser = {
   login: string;
   id: number;
   avatar_url: string;
