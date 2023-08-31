@@ -5,16 +5,16 @@ import { TheHeader } from "components/TheHeader";
 import { Search } from "components/Search";
 import { UserCard } from "components/UserCard";
 
-import { defultUser } from "mock";
+import { defaultUser } from "mock";
 
 function App() {
-  return (
-    <Container>
-      <TheHeader />
-      <Search hasError onSubmit={() => {}} />
-      <UserCard {...defultUser} />
-    </Container>
-  );
+	return (
+		<Container>
+			<TheHeader />
+			<Search hasError onSubmit={() => {}} />
+			<UserCard {...defaultUser} />
+		</Container>
+	);
 }
 
 export default App;
