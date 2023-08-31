@@ -25,7 +25,7 @@ export const InfoItem: FC<InfoItemProps> = ({ icon, isLink, text }) => {
 						rel={"noreferrer"}
 						className={styles.link}
 					>
-						currentText
+						{currentText}
 					</a>
 				) : (
 					currentText

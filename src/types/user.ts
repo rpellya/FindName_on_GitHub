@@ -22,8 +22,10 @@ export type GithubUser = {
 	company: string;
 	bio: string;
 	location: string;
+	blog: string;
+	repos: string;
 	twitter_username: string;
-	public_repos: string;
+	public_repos: number;
 	followers: number;
 	following: number;
 	created_at: string;
